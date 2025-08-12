@@ -13,7 +13,7 @@ class CuentaBancaria {
     }
     
     setSaldo(monto) {
-        if(monto<0){
+        if(monto>0){
 
             console.log("el saldo ingresado no puede ser negativo")
             return
